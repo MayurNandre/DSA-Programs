@@ -71,7 +71,7 @@ function DeleteFromIndex(arr, index) {
     }
 }
 
-//Function to search element
+//Function to search given element
 function searchElement(arr, element) {
     let found = 0;
     if (!arr.length == 0) {
