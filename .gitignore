@@ -1,0 +1,21 @@
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.vs
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled/output files
+dist/
+build/
+*.log
+
+# Ignore specific folders
+test_cases/
+old_solutions/
+temp/
+CopyFilesForMe/
+DSA-CLG/
