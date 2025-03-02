@@ -1,4 +1,3 @@
-//--Selection Sort--
 function selectionSort(arr) {
     let n = arr.length;
     isSmall = false;

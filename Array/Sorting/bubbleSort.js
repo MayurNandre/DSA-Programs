@@ -1,4 +1,3 @@
-//--Bubble Sort--
 function bubbleSort(arr) {
     if (arr.length == 0) {
         return console.log("Array Is Empty !")
