@@ -93,24 +93,6 @@ function searchElement(arr, element) {
     }
 }
 
-// function for sorting an array
-function sortArray(arr) {
-    if (!arr.length == 0) {
-        let n = arr.length;
-        for (let i = 0; i < n - 1; i++) {
-            for (let j = 0; j < n - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    let temp = arr[j];
-                    arr[j] = arr[j + 1]
-                    arr[j + 1] = temp;
-                }
-            }
-        }
-        return arr;
-    } else {
-        console.log("Given Array Is Empty !")
-    }
-}
 
 // function to reverse Array
 function reverseArray(arr) {
@@ -155,9 +137,6 @@ let myArray = [40, 30, 60, 10, 5, 20];
 // }
 
 // searchElement(myArray, 50);
-
-// let SortedArray = sortArray(myArray);
-// TraverseArray(SortedArray);
 
 // let ReverseArr = reverseArray(myArray);
 // TraverseArray(ReverseArr);
